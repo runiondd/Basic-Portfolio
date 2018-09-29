@@ -101,10 +101,6 @@ img {
     grid-gap: 100px;
 }
 
-.grid-item {
-    display: block;
-}
-
 .mainImg {
     float: left;
     padding-right: 10px;
@@ -143,14 +139,34 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #4aaaa5;
-}
-
 /* Add a background color and some padding around the form */
 .contactContainer {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+
+.grid-item {
+    position: relative;
+    display: block;
+    width: 200px;
+}
+
+
+.label {
+    position: relative;
+    top: -50px;
+    left: -20px;
+    background-color: #4aaaa5;
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: white;
+
+    
+    : 
+
+
 }
